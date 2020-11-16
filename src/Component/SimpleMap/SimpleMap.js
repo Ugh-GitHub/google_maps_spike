@@ -24,6 +24,7 @@ class SimpleMap extends Component {
           // Also, security is a thing: https://medium.com/better-programming/how-to-hide-your-api-keys-c2b952bc07e6
           // I have no clue how to set up a reverse proxy server (and I'm not paying for cloudflare), so I'm throwing in the towel.
           // https://www.cloudflare.com/learning/cdn/glossary/reverse-proxy/
+          // Or diving into the rabbit hole of YARP: https://github.com/microsoft/reverse-proxy
             language: 'en',
              }}
           defaultCenter={this.props.center}
