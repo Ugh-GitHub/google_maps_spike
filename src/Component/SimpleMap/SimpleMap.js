@@ -19,7 +19,7 @@ class SimpleMap extends Component {
       // Important! Always set the container height explicitly
       <div style={{ height: '100vh', width: '100%' }}>
         <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyCb2vBjjdkjoMfv8jqMpFX_pinIGSyf8ZY',
+          bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_API_KEY,
           // Looks like I need a billing account to enable the dang thing
           // Also, security is a thing: https://medium.com/better-programming/how-to-hide-your-api-keys-c2b952bc07e6
           // I have no clue how to set up a reverse proxy server (and I'm not paying for cloudflare), so I'm throwing in the towel.
